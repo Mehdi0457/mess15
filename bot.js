@@ -1,4 +1,4 @@
-client.on('message',function message =>{
+client.on('message',function message => {
   function timeCon(time) {
   let days = Math.floor(time % 31536000 / 86400);
   let hours = Math.floor(time % 31536000 % 86400 / 3600);
